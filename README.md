@@ -2,14 +2,14 @@
 A peer-to-peer architecture for image sending and processing
 
 ## Required dependencies
-CMake>=3.19
-boost 1.77.0 (already packed in the /include)
-C++ compiler clang++15 with C++ standard set to **17**
-pthread (should be internally available on most Unix systems)
-JDK 11.0.24 Oracle x64
-gradle 8.6
-package org.json:json:20240303
-genome-terminal(otherwise the following `make` could not execute, the user needs to build both peer applications separately)
+CMake>=3.19  
+boost 1.77.0 (already packed in the /include)  
+C++ compiler clang++15 with C++ standard set to **17**  
+pthread (should be internally available on most Unix systems)  
+JDK 11.0.24 Oracle x64  
+gradle 8.6  
+package org.json:json:20240303  
+genome-terminal(otherwise the following `make` could not execute, the user needs to build both peer applications separately)  
 
 ## Tested environment
 RHEL 8.9 on an Intel NUC 10 (i7-10710U, 32GB RAM)
