@@ -9,7 +9,7 @@ pthread (should be internally available on most Unix systems)
 JDK 11.0.24 Oracle x64  
 gradle 8.6  
 package org.json:json:20240303  
-genome-terminal(otherwise the following `make` could not execute, the user needs to build both peer applications separately)  
+gnome-terminal(otherwise the following `make` could not execute, the user needs to build both peer applications separately)  
 
 ## Tested environment
 RHEL 8.9 on an Intel NUC 10 (i7-10710U, 32GB RAM)
